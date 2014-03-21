@@ -1,5 +1,5 @@
 //
-//  BuzzAppViewController.h
+//  EventViewController.h
 //  Buzz
 //
 //  Created by Trevor Poppen on 3/20/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BuzzAppViewController : UIViewController
+@interface EventViewController : UIViewController
 
 @end

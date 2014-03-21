@@ -14,13 +14,18 @@
 		A2F7DDB918DBEC7300435410 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDB818DBEC7300435410 /* main.m */; };
 		A2F7DDBD18DBEC7300435410 /* BuzzAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDBC18DBEC7300435410 /* BuzzAppAppDelegate.m */; };
 		A2F7DDC018DBEC7300435410 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2F7DDBE18DBEC7300435410 /* Main.storyboard */; };
-		A2F7DDC318DBEC7300435410 /* BuzzAppViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDC218DBEC7300435410 /* BuzzAppViewController.m */; };
+		A2F7DDC318DBEC7300435410 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDC218DBEC7300435410 /* HomeViewController.m */; };
 		A2F7DDC518DBEC7300435410 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2F7DDC418DBEC7300435410 /* Images.xcassets */; };
 		A2F7DDCC18DBEC7300435410 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F7DDCB18DBEC7300435410 /* XCTest.framework */; };
 		A2F7DDCD18DBEC7300435410 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F7DDAC18DBEC7300435410 /* Foundation.framework */; };
 		A2F7DDCE18DBEC7300435410 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2F7DDB018DBEC7300435410 /* UIKit.framework */; };
 		A2F7DDD618DBEC7300435410 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A2F7DDD418DBEC7300435410 /* InfoPlist.strings */; };
 		A2F7DDD818DBEC7300435410 /* BuzzTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDD718DBEC7300435410 /* BuzzTests.m */; };
+		A2F7DDE318DBEE1200435410 /* CourseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDE218DBEE1200435410 /* CourseViewController.m */; };
+		A2F7DDE918DBEF7300435410 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDE818DBEF7300435410 /* ProfileViewController.m */; };
+		A2F7DDEC18DBF08300435410 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDEB18DBF08300435410 /* EventViewController.m */; };
+		A2F7DDEF18DBFA3E00435410 /* CourseListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDEE18DBFA3E00435410 /* CourseListTableViewController.m */; };
+		A2F7DDF218DBFA9C00435410 /* EventListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDF118DBFA9C00435410 /* EventListTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +50,24 @@
 		A2F7DDBB18DBEC7300435410 /* BuzzAppAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuzzAppAppDelegate.h; sourceTree = "<group>"; };
 		A2F7DDBC18DBEC7300435410 /* BuzzAppAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuzzAppAppDelegate.m; sourceTree = "<group>"; };
 		A2F7DDBF18DBEC7300435410 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A2F7DDC118DBEC7300435410 /* BuzzAppViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuzzAppViewController.h; sourceTree = "<group>"; };
-		A2F7DDC218DBEC7300435410 /* BuzzAppViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuzzAppViewController.m; sourceTree = "<group>"; };
+		A2F7DDC118DBEC7300435410 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		A2F7DDC218DBEC7300435410 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		A2F7DDC418DBEC7300435410 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A2F7DDCA18DBEC7300435410 /* BuzzTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BuzzTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2F7DDCB18DBEC7300435410 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		A2F7DDD318DBEC7300435410 /* BuzzTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BuzzTests-Info.plist"; sourceTree = "<group>"; };
 		A2F7DDD518DBEC7300435410 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A2F7DDD718DBEC7300435410 /* BuzzTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuzzTests.m; sourceTree = "<group>"; };
+		A2F7DDE118DBEE1200435410 /* CourseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseViewController.h; sourceTree = "<group>"; };
+		A2F7DDE218DBEE1200435410 /* CourseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseViewController.m; sourceTree = "<group>"; };
+		A2F7DDE718DBEF7300435410 /* ProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		A2F7DDE818DBEF7300435410 /* ProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		A2F7DDEA18DBF08300435410 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		A2F7DDEB18DBF08300435410 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		A2F7DDED18DBFA3E00435410 /* CourseListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CourseListTableViewController.h; sourceTree = "<group>"; };
+		A2F7DDEE18DBFA3E00435410 /* CourseListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseListTableViewController.m; sourceTree = "<group>"; };
+		A2F7DDF018DBFA9C00435410 /* EventListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListTableViewController.h; sourceTree = "<group>"; };
+		A2F7DDF118DBFA9C00435410 /* EventListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +130,18 @@
 				A2F7DDBB18DBEC7300435410 /* BuzzAppAppDelegate.h */,
 				A2F7DDBC18DBEC7300435410 /* BuzzAppAppDelegate.m */,
 				A2F7DDBE18DBEC7300435410 /* Main.storyboard */,
-				A2F7DDC118DBEC7300435410 /* BuzzAppViewController.h */,
-				A2F7DDC218DBEC7300435410 /* BuzzAppViewController.m */,
+				A2F7DDF018DBFA9C00435410 /* EventListTableViewController.h */,
+				A2F7DDF118DBFA9C00435410 /* EventListTableViewController.m */,
+				A2F7DDED18DBFA3E00435410 /* CourseListTableViewController.h */,
+				A2F7DDEE18DBFA3E00435410 /* CourseListTableViewController.m */,
+				A2F7DDEA18DBF08300435410 /* EventViewController.h */,
+				A2F7DDEB18DBF08300435410 /* EventViewController.m */,
+				A2F7DDE718DBEF7300435410 /* ProfileViewController.h */,
+				A2F7DDE818DBEF7300435410 /* ProfileViewController.m */,
+				A2F7DDE118DBEE1200435410 /* CourseViewController.h */,
+				A2F7DDE218DBEE1200435410 /* CourseViewController.m */,
+				A2F7DDC118DBEC7300435410 /* HomeViewController.h */,
+				A2F7DDC218DBEC7300435410 /* HomeViewController.m */,
 				A2F7DDC418DBEC7300435410 /* Images.xcassets */,
 				A2F7DDB318DBEC7300435410 /* Supporting Files */,
 			);
@@ -251,7 +276,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2F7DDB918DBEC7300435410 /* main.m in Sources */,
-				A2F7DDC318DBEC7300435410 /* BuzzAppViewController.m in Sources */,
+				A2F7DDE318DBEE1200435410 /* CourseViewController.m in Sources */,
+				A2F7DDC318DBEC7300435410 /* HomeViewController.m in Sources */,
+				A2F7DDEF18DBFA3E00435410 /* CourseListTableViewController.m in Sources */,
+				A2F7DDEC18DBF08300435410 /* EventViewController.m in Sources */,
+				A2F7DDE918DBEF7300435410 /* ProfileViewController.m in Sources */,
+				A2F7DDF218DBFA9C00435410 /* EventListTableViewController.m in Sources */,
 				A2F7DDBD18DBEC7300435410 /* BuzzAppAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

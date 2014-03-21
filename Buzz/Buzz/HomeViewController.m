@@ -6,14 +6,16 @@
 //  Copyright (c) 2014 Tasty Bears. All rights reserved.
 //
 
-#import "BuzzAppViewController.h"
+#import "HomeViewController.h"
 
-@interface BuzzAppViewController ()
+@interface HomeViewController ()
 
 @end
 
-@implementation BuzzAppViewController
+@implementation HomeViewController
 
+/*
+ #not needed right now
 - (void)viewDidLoad
 {
     [super viewDidLoad];
@@ -25,5 +27,6 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+*/
 
 @end
