@@ -133,9 +133,7 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="D0B-SL-OGx">
-                        <barButtonItem key="rightBarButtonItem" title="Edit" id="6Yo-Bu-kqN"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="D0B-SL-OGx"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d8W-BF-qYx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -202,9 +200,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="Gxl-u3-imH">
-                        <barButtonItem key="rightBarButtonItem" title="Edit" id="zhE-aY-BZg"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" id="Gxl-u3-imH"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="4GG-kV-Njm" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
