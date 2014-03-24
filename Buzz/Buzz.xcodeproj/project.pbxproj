@@ -26,6 +26,11 @@
 		A2F7DDEC18DBF08300435410 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDEB18DBF08300435410 /* EventViewController.m */; };
 		A2F7DDEF18DBFA3E00435410 /* CourseListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDEE18DBFA3E00435410 /* CourseListTableViewController.m */; };
 		A2F7DDF218DBFA9C00435410 /* EventListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDF118DBFA9C00435410 /* EventListTableViewController.m */; };
+		A2F7DDF518E0B66D00435410 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDF418E0B66D00435410 /* User.m */; };
+		A2F7DDF918E0B69100435410 /* Course.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDF818E0B69100435410 /* Course.m */; };
+		A2F7DDFC18E0B6A900435410 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDFB18E0B6A900435410 /* Event.m */; };
+		A2F7DDFF18E0C80400435410 /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDFE18E0C80400435410 /* Schedule.m */; };
+		A2F7DE0218E0C81D00435410 /* Enrollment.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DE0118E0C81D00435410 /* Enrollment.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +73,16 @@
 		A2F7DDEE18DBFA3E00435410 /* CourseListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CourseListTableViewController.m; sourceTree = "<group>"; };
 		A2F7DDF018DBFA9C00435410 /* EventListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventListTableViewController.h; sourceTree = "<group>"; };
 		A2F7DDF118DBFA9C00435410 /* EventListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventListTableViewController.m; sourceTree = "<group>"; };
+		A2F7DDF318E0B66D00435410 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = User.h; path = Models/User.h; sourceTree = "<group>"; };
+		A2F7DDF418E0B66D00435410 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = User.m; path = Models/User.m; sourceTree = "<group>"; };
+		A2F7DDF718E0B69100435410 /* Course.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Course.h; path = Models/Course.h; sourceTree = "<group>"; };
+		A2F7DDF818E0B69100435410 /* Course.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Course.m; path = Models/Course.m; sourceTree = "<group>"; };
+		A2F7DDFA18E0B6A900435410 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Event.h; path = Models/Event.h; sourceTree = "<group>"; };
+		A2F7DDFB18E0B6A900435410 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = Models/Event.m; sourceTree = "<group>"; };
+		A2F7DDFD18E0C80400435410 /* Schedule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Schedule.h; path = Models/Schedule.h; sourceTree = "<group>"; };
+		A2F7DDFE18E0C80400435410 /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Schedule.m; path = Models/Schedule.m; sourceTree = "<group>"; };
+		A2F7DE0018E0C81D00435410 /* Enrollment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enrollment.h; path = Models/Enrollment.h; sourceTree = "<group>"; };
+		A2F7DE0118E0C81D00435410 /* Enrollment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Enrollment.m; path = Models/Enrollment.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +157,7 @@
 				A2F7DDE218DBEE1200435410 /* CourseViewController.m */,
 				A2F7DDC118DBEC7300435410 /* HomeViewController.h */,
 				A2F7DDC218DBEC7300435410 /* HomeViewController.m */,
+				A2F7DDF618E0B67400435410 /* Models */,
 				A2F7DDC418DBEC7300435410 /* Images.xcassets */,
 				A2F7DDB318DBEC7300435410 /* Supporting Files */,
 			);
@@ -175,6 +191,23 @@
 				A2F7DDD418DBEC7300435410 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A2F7DDF618E0B67400435410 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A2F7DDF318E0B66D00435410 /* User.h */,
+				A2F7DDF418E0B66D00435410 /* User.m */,
+				A2F7DDF718E0B69100435410 /* Course.h */,
+				A2F7DDF818E0B69100435410 /* Course.m */,
+				A2F7DDFA18E0B6A900435410 /* Event.h */,
+				A2F7DDFB18E0B6A900435410 /* Event.m */,
+				A2F7DDFD18E0C80400435410 /* Schedule.h */,
+				A2F7DDFE18E0C80400435410 /* Schedule.m */,
+				A2F7DE0018E0C81D00435410 /* Enrollment.h */,
+				A2F7DE0118E0C81D00435410 /* Enrollment.m */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -275,11 +308,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2F7DDFC18E0B6A900435410 /* Event.m in Sources */,
 				A2F7DDB918DBEC7300435410 /* main.m in Sources */,
 				A2F7DDE318DBEE1200435410 /* CourseViewController.m in Sources */,
+				A2F7DDF518E0B66D00435410 /* User.m in Sources */,
 				A2F7DDC318DBEC7300435410 /* HomeViewController.m in Sources */,
+				A2F7DDF918E0B69100435410 /* Course.m in Sources */,
+				A2F7DDFF18E0C80400435410 /* Schedule.m in Sources */,
 				A2F7DDEF18DBFA3E00435410 /* CourseListTableViewController.m in Sources */,
 				A2F7DDEC18DBF08300435410 /* EventViewController.m in Sources */,
+				A2F7DE0218E0C81D00435410 /* Enrollment.m in Sources */,
 				A2F7DDE918DBEF7300435410 /* ProfileViewController.m in Sources */,
 				A2F7DDF218DBFA9C00435410 /* EventListTableViewController.m in Sources */,
 				A2F7DDBD18DBEC7300435410 /* BuzzAppAppDelegate.m in Sources */,
