@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface User : NSObject
+- (id)initWithJSONDictionary:(NSDictionary *)jsonDictionary;
 
 @property (readonly) NSString *username;
 @property (readonly) NSString *familyName;

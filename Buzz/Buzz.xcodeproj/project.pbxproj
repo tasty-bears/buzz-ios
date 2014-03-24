@@ -31,6 +31,7 @@
 		A2F7DDFC18E0B6A900435410 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDFB18E0B6A900435410 /* Event.m */; };
 		A2F7DDFF18E0C80400435410 /* Schedule.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DDFE18E0C80400435410 /* Schedule.m */; };
 		A2F7DE0218E0C81D00435410 /* Enrollment.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DE0118E0C81D00435410 /* Enrollment.m */; };
+		A2F7DE0518E0CC5F00435410 /* JSONReader.m in Sources */ = {isa = PBXBuildFile; fileRef = A2F7DE0418E0CC5F00435410 /* JSONReader.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		A2F7DDFE18E0C80400435410 /* Schedule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Schedule.m; path = Models/Schedule.m; sourceTree = "<group>"; };
 		A2F7DE0018E0C81D00435410 /* Enrollment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Enrollment.h; path = Models/Enrollment.h; sourceTree = "<group>"; };
 		A2F7DE0118E0C81D00435410 /* Enrollment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Enrollment.m; path = Models/Enrollment.m; sourceTree = "<group>"; };
+		A2F7DE0318E0CC5F00435410 /* JSONReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSONReader.h; sourceTree = "<group>"; };
+		A2F7DE0418E0CC5F00435410 /* JSONReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSONReader.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +160,7 @@
 				A2F7DDE218DBEE1200435410 /* CourseViewController.m */,
 				A2F7DDC118DBEC7300435410 /* HomeViewController.h */,
 				A2F7DDC218DBEC7300435410 /* HomeViewController.m */,
+				A2F7DE0618E0CC6800435410 /* JSON Services */,
 				A2F7DDF618E0B67400435410 /* Models */,
 				A2F7DDC418DBEC7300435410 /* Images.xcassets */,
 				A2F7DDB318DBEC7300435410 /* Supporting Files */,
@@ -208,6 +212,15 @@
 				A2F7DE0118E0C81D00435410 /* Enrollment.m */,
 			);
 			name = Models;
+			sourceTree = "<group>";
+		};
+		A2F7DE0618E0CC6800435410 /* JSON Services */ = {
+			isa = PBXGroup;
+			children = (
+				A2F7DE0318E0CC5F00435410 /* JSONReader.h */,
+				A2F7DE0418E0CC5F00435410 /* JSONReader.m */,
+			);
+			name = "JSON Services";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -316,6 +329,7 @@
 				A2F7DDF918E0B69100435410 /* Course.m in Sources */,
 				A2F7DDFF18E0C80400435410 /* Schedule.m in Sources */,
 				A2F7DDEF18DBFA3E00435410 /* CourseListTableViewController.m in Sources */,
+				A2F7DE0518E0CC5F00435410 /* JSONReader.m in Sources */,
 				A2F7DDEC18DBF08300435410 /* EventViewController.m in Sources */,
 				A2F7DE0218E0C81D00435410 /* Enrollment.m in Sources */,
 				A2F7DDE918DBEF7300435410 /* ProfileViewController.m in Sources */,

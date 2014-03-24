@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Course : NSObject
+- (id)initWithJSONDictionary:(NSDictionary *)jsonDictionary;
 
 @property (readonly) NSString *name;
 @property (readonly) NSNumber *courseNumber;

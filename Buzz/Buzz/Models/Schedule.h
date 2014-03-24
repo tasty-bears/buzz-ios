@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 
 @interface Schedule : NSObject
+- (id)initWithJSONDictionary:(NSDictionary *)jsonDictionary;
 
 @property (readonly) NSString *name;
 @property (readonly) NSString *courseId;
