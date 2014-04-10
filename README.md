@@ -1,6 +1,6 @@
-iOS application for Angora project.
+iOS application for Buzz project.
 
-Implemented this far:
+Implemented thus far:
   basic views and models are layed out
   controllers are created and hooked up to views
   when app runs only the segues for profile and see my courses work - the course lists and event lists aren't populated yet

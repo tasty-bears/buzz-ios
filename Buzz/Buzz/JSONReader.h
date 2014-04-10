@@ -8,6 +8,16 @@
 
 #import <Foundation/Foundation.h>
 
+#import "Models/User.h"
+#import "Models/Course.h"
+#import "Models/Event.h"
+#import "Models/Schedule.h"
+#import "Models/Enrollment.h"
+
 @interface JSONReader : NSObject
+
+- (User *)getUserFromJSONFile:(NSURL *)url;
+- (NSArray *)getCoursesFromJSONFile:(NSURL *)url forUserId:(NSString *)userId;
+- (NSArray *)getEventsFromJSONFile:(NSURL *)url forCourseId:(NSString *)courseId;
 
 @end
